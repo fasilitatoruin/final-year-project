@@ -34,12 +34,13 @@
 	------------------------------------------------------ */
 	$(".home-slides").vegas({
 		transition: 'fade',
-		transitionDuration: 2500,
-		delay: 5000,
+		transitionDuration: 1500,
+		delay: 2000,
     	slides: [
-       	{ src: "images/slides/03.jpg" },
-        	{ src: "images/slides/02.jpg" },
-        	{ src: "images/slides/01.jpg" }
+       	{ src: "images/slides/3.jpg" },
+        	{ src: "images/slides/2.jpg" },
+        	{ src: "images/slides/1.jpg" },
+			{ src: "images/slides/4.jpg" }
     	]
 	});
 
